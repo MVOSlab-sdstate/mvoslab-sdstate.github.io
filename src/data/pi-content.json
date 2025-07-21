@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "backgroundImage": "/images/pi-drone-background.jpg",
+    "title": "Principal Investigator",
+    "subtitle": "Leading innovation in agricultural technology and machine vision"
+  },
+  "profile": {
+    "image": "/images/pappu-profile.jpg",
+    "name": "Pappu Kumar Yadav, Ph.D.",
+    "title": "Assistant Professor - Precision Agriculture AI Engineering",
+    "department": "Department of Agricultural & Biosystems Engineering",
+    "description": "Dr. Pappu Kumar Yadav is an Assistant Professor and the Principal Investigator of the Machine Vision and Optical Sensor Lab at South Dakota State University. He leads cutting-edge research in precision agriculture technologies, focusing on the application of artificial intelligence and machine vision systems for sustainable agricultural practices.",
+    "experience": [
+      {
+        "position": "Assistant Professor",
+        "institution": "South Dakota State University",
+        "period": "2023-Present"
+      },
+      {
+        "position": "Post-Doctoral Research Associate",
+        "institution": "University of Florida",
+        "period": "2022-2023"
+      },
+      {
+        "position": "Graduate Research Assistant",
+        "institution": "Texas A&M University",
+        "period": "2018-2022"
+      },
+      {
+        "position": "Electrical Equipment Technician",
+        "institution": "Center for Irrigation Technology, Fresno",
+        "period": "2014-2018"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Ph.D.",
+        "institution": "Texas A&M University",
+        "year": "2022"
+      },
+      {
+        "degree": "M.S.",
+        "institution": "California State University, Fresno",
+        "year": "2014"
+      },
+      {
+        "degree": "B.Tech.",
+        "institution": "SRM Institute of Science & Technology, India",
+        "year": "2011"
+      }
+    ],
+    "researchInterests": [
+      "Machine vision and optical sensing",
+      "Precision agriculture technologies",
+      "Hyperspectral and multispectral imaging",
+      "Agricultural robotics and automation",
+      "AI and deep learning applications"
+    ],
+    "contact": {
+      "email": "pappu.yadav@sdstate.edu",
+      "office": "Raven Precision Ag Building 104, Box 2100",
+      "address": "Brookings, SD 57007",
+      "phone": "(605) 688-4091"
+    },
+    "socialLinks": [
+      {
+        "name": "Twitter/X",
+        "url": "https://x.com/pappu_k_yadav",
+        "icon": "/images/x-logo.png"
+      },
+      {
+        "name": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=87p_GeMAAAAJ&hl=en&oi=ao",
+        "icon": "/images/google-scholar.png"
+      },
+      {
+        "name": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Pappu-Yadav",
+        "icon": "/images/researchgate.jpg"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@MVOSLab",
+        "icon": "/images/youtube-logo.png"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/MVOSlab-sdstate",
+        "icon": "/images/github-logo.png"
+      }
+    ]
+  }
+} 

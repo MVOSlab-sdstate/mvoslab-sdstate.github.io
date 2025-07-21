@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "backgroundImage": "/images/robot-field.jpg",
+    "title": "Welcome to MVOS Lab",
+    "subtitle": "Agricultural robot in soybean field - MVOS Lab research"
+  },
+  "welcome": {
+    "title": "Welcome to MVOS Lab",
+    "content": "Welcome to the Machine Vision and Optical Sensor (MVOS) Lab at South Dakota State University. We are dedicated to advancing precision agriculture through innovative research and cutting-edge technology that transforms how farmers monitor, manage, and optimize their crops. Our interdisciplinary team specializes in developing hyperspectral imaging systems, autonomous robotic platforms, and AI-powered analytics to detect crop diseases, assess plant health, and enable precision application of treatments. Located within the Department of Agricultural & Biosystems Engineering, we collaborate with students, faculty, and industry partners to create solutions that improve food security and enhance farm productivity.",
+    "leftImage": "/images/drone-field-side.jpg",
+    "leftImageAlt": "Drone flying over agricultural field - MVOS Lab research",
+    "rightImage": "/images/robot-field-side-new.jpg",
+    "rightImageAlt": "Agricultural robot in soybean field - MVOS Lab research"
+  },
+  "carousel": {
+    "images": [
+      {"src": "/images/carousel-1.jpg", "alt": "MVOS Lab Research"},
+      {"src": "/images/carousel-2.jpg", "alt": "MVOS Lab Research"},
+      {"src": "/images/carousel-3.jpg", "alt": "MVOS Lab Research"},
+      {"src": "/images/carousel-4.jpg", "alt": "MVOS Lab Research"},
+      {"src": "/images/carousel-5.jpg", "alt": "MVOS Lab Research"},
+      {"src": "/images/carousel-6.jpg", "alt": "MVOS Lab Research"},
+      {"src": "/images/carousel-7.jpg", "alt": "MVOS Lab Research"},
+      {"src": "/images/carousel-8.jpg", "alt": "MVOS Lab Research"}
+    ]
+  }
+} 

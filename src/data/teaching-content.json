@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "backgroundImage": "/images/drone-field.jpg",
+    "title": "Teaching",
+    "subtitle": "Educating the next generation of precision agriculture engineers"
+  },
+  "courses": [
+    {
+      "code": "PRAG 304/304L",
+      "title": "Electrical Diagnostics for Farm Machinery",
+      "semester": "Spring",
+      "description": "This course is designed to help students understand electronics, communication, basic control systems, and electrical machines as applied in agricultural systems. Topics include electrical safety, resistor, capacitor, inductor transistors, diodes, schematic interpretation, common sensors used in agricultural settings, control systems, numbering systems, TTL communication, RS-232 communication, and CAN bus communication for agricultural equipment."
+    },
+    {
+      "code": "AST 426/426L",
+      "title": "Technology Applications for Precision Agriculture",
+      "semester": "Fall",
+      "description": "\"Technology Applications for Precision Agriculture\" provides an in-depth exploration of the advanced technologies revolutionizing modern farming. This course helps you learn about key concepts such as precision agriculture, variable rate technology (VRT), and the use of geospatial tools like drones, robots, sensors, artificial intelligence (AI) and IoT devices. You'll learn how these technologies work together to enhance farm efficiency, optimize resource use, and support sustainable agricultural practices. Through hands-on labs, real-world case studies, and interactive discussions, this course will equip you with the knowledge and skills necessary to apply these technologies to solve contemporary agricultural challenges and advance the field of precision agriculture."
+    }
+  ],
+  "philosophy": {
+    "title": "Teaching Philosophy",
+    "principles": [
+      {
+        "title": "Hands-On Learning",
+        "description": "Emphasizing practical, hands-on experiences with real agricultural equipment and cutting-edge technology to bridge the gap between theory and practice."
+      },
+      {
+        "title": "Industry Relevance",
+        "description": "Incorporating current industry practices and emerging technologies to ensure students are prepared for the evolving agricultural landscape."
+      },
+      {
+        "title": "Problem-Solving Focus",
+        "description": "Developing critical thinking skills through real-world case studies and interactive discussions that address contemporary agricultural challenges."
+      },
+      {
+        "title": "Technology Integration",
+        "description": "Utilizing advanced technologies including AI, IoT devices, drones, and precision agriculture tools to provide comprehensive learning experiences."
+      }
+    ]
+  }
+} 

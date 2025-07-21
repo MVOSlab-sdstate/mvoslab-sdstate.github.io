@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "backgroundImage": "/images/drone-field.jpg",
+    "title": "About",
+    "subtitle": "Advancing precision agriculture through cutting-edge machine vision and optical sensor technologies"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "content": "The Machine Vision and Optical Sensor (MVOS) Lab at South Dakota State University is dedicated to advancing precision agriculture through innovative research and technology development. Located within the Department of Agricultural & Biosystems Engineering, our lab serves as a hub for interdisciplinary collaboration. We are committed to improving food safety, security, and sustainability by empowering farmers with cutting-edge tools and knowledge for data-driven agricultural decisions."
+  },
+  "facilities": {
+    "title": "Facilities & Equipment",
+    "laboratory": {
+      "title": "Laboratory Facilities",
+      "items": [
+        "State-of-the-art hyperspectral imaging systems",
+        "Advanced computer vision workstations",
+        "Robotics development and testing area",
+        "Controlled environment chambers",
+        "High-performance computing cluster"
+      ]
+    },
+    "field": {
+      "title": "Field Equipment",
+      "items": [
+        "Multi-rotor drones",
+        "Autonomous ground vehicles",
+        "Portable hyperspectral cameras",
+        "Environmental monitoring sensors",
+        "GPS and precision navigation systems"
+      ]
+    }
+  },
+  "impact": {
+    "title": "Real-World Impact",
+    "items": [
+      {
+        "title": "Early Disease Detection",
+        "description": "Identifying crop diseases before visible symptoms appear"
+      },
+      {
+        "title": "Precision Application",
+        "description": "Reducing pesticide and fertilizer usage by 30-50%"
+      },
+      {
+        "title": "Yield Optimization",
+        "description": "Improving crop yields through data-driven decisions"
+      },
+      {
+        "title": "Cost Reduction",
+        "description": "Lowering operational costs for farmers"
+      },
+      {
+        "title": "Environmental Protection",
+        "description": "Minimizing chemical runoff and environmental impact"
+      }
+    ]
+  },
+  "opportunities": {
+    "title": "Student Opportunities",
+    "items": [
+      {
+        "title": "Research Assistantships",
+        "description": "Hands-on experience with cutting-edge technology"
+      },
+      {
+        "title": "Thesis Projects",
+        "description": "Independent research in precision agriculture"
+      },
+      {
+        "title": "Industry Collaboration",
+        "description": "Work with agricultural technology companies"
+      },
+      {
+        "title": "Conference Presentations",
+        "description": "Share research at national and international venues"
+      },
+      {
+        "title": "Publication Opportunities",
+        "description": "Co-author peer-reviewed research papers"
+      }
+    ]
+  }
+} 

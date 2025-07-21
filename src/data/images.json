@@ -1,0 +1,93 @@
+{
+  "heroImages": {
+    "/images/robot-field.jpg": "Agricultural robot in soybean field - MVOS Lab research",
+    "/images/drone-field.jpg": "Drone flying over agricultural field - MVOS Lab research",
+    "/images/people-background.jpg": "Agricultural field research",
+    "/images/research-robot-background.jpg": "Agricultural robot research",
+    "/images/pi-drone-background.jpg": "Drone field research",
+    "/images/news-drone-background.jpg": "Drone field research"
+  },
+  "carouselImages": {
+    "/images/carousel-1.jpg": "MVOS Lab Research",
+    "/images/carousel-2.jpg": "MVOS Lab Research",
+    "/images/carousel-3.jpg": "MVOS Lab Research",
+    "/images/carousel-4.jpg": "MVOS Lab Research",
+    "/images/carousel-5.jpg": "MVOS Lab Research",
+    "/images/carousel-6.jpg": "MVOS Lab Research",
+    "/images/carousel-7.jpg": "MVOS Lab Research",
+    "/images/carousel-8.jpg": "MVOS Lab Research"
+  },
+  "teamImages": {
+    "/images/pappu-profile.jpg": "Dr. Pappu Kumar Yadav",
+    "/images/rishik.png": "Rishik Aggarwal",
+    "/images/rikesh.png": "Rikesh Budhathoki",
+    "/images/james.png": "James Kemeshi",
+    "/images/amee.png": "Amee Parmar",
+    "/images/supriya.png": "Supriya Paudel",
+    "/images/inayat.png": "Inayat Rasool",
+    "/images/dhe.png": "Dhe Yeong Tchalla",
+    "/images/zain.png": "Zain Ul Abideen Usmani"
+  },
+  "alumniImages": {
+    "/images/alumni-swarnabha.jpg": "Swarnabha Roy",
+    "/images/alumni-kasish.jpg": "Kasish Siwakoti",
+    "/images/alumni-ivan.jpg": "Ivan Perez Olivera",
+    "/images/alumni-hasan.jpg": "Dr. Hasan Mirzakhaninafchi"
+  },
+  "researchImages": {
+    "/images/hyperspectral-imaging.jpg": "Hyperspectral imaging system analyzing soybean leaves",
+    "/images/hsi-datacube.png": "Hyperspectral data cube visualization showing spectral bands",
+    "/images/robotics-greenhouse.jpg": "Robotic system in greenhouse environment",
+    "/images/robotics-field-1.jpg": "Field robot monitoring soybean crops",
+    "/images/robotics-field-2.jpg": "Advanced field robotics platform",
+    "/images/ai-weed-detection.jpg": "AI-powered weed detection system with real-time classification",
+    "/images/ai-plant-measurement.jpg": "AI plant measurement and phenotyping system",
+    "/images/drone-field-monitoring.jpg": "Agricultural drone conducting field monitoring and data collection",
+    "/images/htp-greenhouse-phenotyping.jpg": "High throughput phenotyping system in greenhouse environment",
+    "/images/htp-3d-visualization.png": "3D plant phenotyping visualization and analysis",
+    "/images/data-analytics-mse-boxplot.png": "Machine learning model performance analysis showing MSE comparison across different algorithms",
+    "/images/data-analytics-pca-analysis.png": "PCA projection analysis showing principal components and explained variance for data classification"
+  },
+  "publicationImages": {
+    "/images/paper1-sds.png": "SDS Detection Paper",
+    "/images/paper2-robotics.png": "Robotic System Paper",
+    "/images/pub3-modular-robot.png": "Development and Evaluation of a Multiaxial Modular Ground Robot",
+    "/images/pub4-citrus-hyperspectral.png": "Supervised Hyperspectral Band Selection Using Texture Features for Classification of Citrus Leaf Diseases",
+    "/images/conf1-pepper-detection.png": "AI-driven computer vision for pepper detection",
+    "/images/conf2-phenai-soybean.png": "PhenAI-bot soybean phenotyping",
+    "/images/conf3-pybullet-robot.png": "PyBullet agricultural robot simulation",
+    "/images/conf4-phenai-pepper.png": "PhenAI-Bot pepper phenotyping",
+    "/images/conf5-harvest-bot.png": "Harvest-Bot pepper harvesting",
+    "/images/conf6-hyperspectral-sds.png": "Hyperspectral imaging for SDS classification",
+    "/images/pub2024-1-citrus-black-spot.png": "Detection of citrus black spot fungi",
+    "/images/pub2024-2-citrus-leaf-diseases.png": "Classification of Citrus Leaf Diseases",
+    "/images/pub2024-3-citrus-hyperspectral.png": "Classifying adaxial and abaxial sides of diseased citrus leaves",
+    "/images/pub2024-4-cotton-corn-detection.png": "AI-Driven Computer Vision Detection of Cotton in Corn Fields",
+    "/images/pub2024-5-citrus-classification.png": "Automated classification of citrus disease on fruits and leaves",
+    "/images/pub5-irrigation-turfgrass.png": "A case study of spatial variability in irrigation depth and surface characteristics of a stadium football pitch"
+  },
+  "sponsorImages": {
+    "/images/sponsor1.png": "South Dakota Soybean Research & Promotion Council",
+    "/images/sponsor2.png": "SafetySpect",
+    "/images/sponsor3.png": "USDA Agricultural Research Service",
+    "/images/sponsor4.png": "South Dakota Nutrient Research and Education Council",
+    "/images/sponsor5.png": "USDA National Institute of Food and Agriculture",
+    "/images/sponsor6.png": "Sponsor 6",
+    "/images/sponsor7.png": "Texas A&M University - Department of Electrical & Computer Engineering"
+  },
+  "socialIcons": {
+    "/images/x-logo.png": "Twitter/X",
+    "/images/google-scholar.png": "Google Scholar",
+    "/images/researchgate.png": "ResearchGate",
+    "/images/researchgate.jpg": "ResearchGate",
+    "/images/youtube-logo.png": "YouTube",
+    "/images/github-logo.png": "GitHub"
+  },
+  "otherImages": {
+    "/images/dept-logo.png": "Department Logo",
+    "/favicon.ico": "Site Favicon",
+    "/images/drone-field-side.jpg": "Drone flying over agricultural field - MVOS Lab research",
+    "/images/robot-field-side-new.jpg": "Agricultural robot in soybean field - MVOS Lab research",
+    "/images/mvoslab-research.png": "MVOS Lab Research Overview"
+  }
+} 

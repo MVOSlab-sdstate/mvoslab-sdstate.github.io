@@ -1,0 +1,109 @@
+{
+  "hero": {
+    "backgroundImage": "/images/people-background.jpg",
+    "title": "Our Team",
+    "subtitle": "Meet the researchers advancing agricultural technology"
+  },
+  "teamMembers": [
+    {
+      "name": "Rishik Aggarwal",
+      "image": "/images/rishik.png",
+      "description": "is an undergraduate student pursuing BS in Computer Science at South Dakota State University. He works in the MVOS lab as an undergraduate research assistant where he used image processing and Artificial Intelligence (AI) for Precision Agriculture applications. He is proficient in C, C++, HTML and CSS. His areas of research interests include image processing using OpenCV, Machine Learning and implementation of AI in autonomous vehicles.",
+      "group": "Undergraduate",
+      "socialLinks": [
+        { "name": "Google Scholar", "url": "https://scholar.google.com/citations?user=hkDy_WwAAAAJ&hl=en&oi=ao", "icon": "/images/google-scholar.png" },
+        { "name": "ResearchGate", "url": "https://www.researchgate.net/profile/Rishik-Aggarwal", "icon": "/images/researchgate.png" }
+      ]
+    },
+    {
+      "name": "Rikesh Budhathoki",
+      "image": "/images/rikesh.png",
+      "description": "is an undergraduate student pursuing a BS in Computer Science at South Dakota State University. He is currently an undergraduate research assistant in the Machine Vision and Optical Sensors (MVOS) Lab, where he explores machine learning, artificial intelligence, and drone technologies as applied to agriculture. With a strong foundation in coding, he enjoys working with programming languages such as Java, C++, and Python.",
+      "group": "Undergraduate",
+      "socialLinks": [
+        { "name": "Google Scholar", "url": "https://scholar.google.com/citations?user=ZtgDwL0AAAAJ&hl=en&oi=ao", "icon": "/images/google-scholar.png" },
+        { "name": "ResearchGate", "url": "https://www.researchgate.net/profile/Rikesh-Budhathoki", "icon": "/images/researchgate.png" }
+      ]
+    },
+    {
+      "name": "James Kemeshi",
+      "image": "/images/james.png",
+      "description": "(co-advised/co-chaired) is a Ph.D. candidate and Graduate Research Assistant primarily working at the Precision Agriculture and Automation Laboratory (PAAL) in the Department of Agricultural and Biosystems Engineering at South Dakota State University, Brookings, South Dakota. He earned his bachelor's degree in Agricultural Engineering from the Federal University of Technology Owerri, Nigeria. His research focuses on leveraging machine vision and deep learning technologies to address challenges in agriculture. To encourage adoption of ground robots by small-scale farmers, he develops cost-effective ground robotic systems for precision agriculture applications, including crop monitoring, targeted spraying, and other automation-driven solutions. James has been collaboratively working with the MVOS lab on multiple research projects.",
+      "group": "Graduate",
+      "socialLinks": [
+        { "name": "Google Scholar", "url": "https://scholar.google.com/citations?user=_tV6t-sAAAAJ&hl=en&oi=ao", "icon": "/images/google-scholar.png" }
+      ]
+    },
+    {
+      "name": "Amee Parmar",
+      "image": "/images/amee.png",
+      "description": "is an undergraduate student pursuing BS in Computer Science at South Dakota State University. She is currently working in the Machine Vision and Optical Sensors (MVOS) Lab conducting research with various approaches of image processing using Hyperspectral Imaging system for crop disease detection. She enjoys coding in C++ and Python.",
+      "group": "Undergraduate",
+      "socialLinks": [
+        { "name": "Google Scholar", "url": "https://scholar.google.com/citations?hl=en&user=wSDDXE0AAAAJ", "icon": "/images/google-scholar.png" },
+        { "name": "ResearchGate", "url": "https://www.researchgate.net/profile/Amee-Parmar?ev=hdr_xprf", "icon": "/images/researchgate.png" }
+      ]
+    },
+    {
+      "name": "Supriya Paudel",
+      "image": "/images/supriya.png",
+      "description": "is an undergraduate Computer Science student at South Dakota State University with a keen interest in systems programming, compilers, and backend development. She enjoys learning new technologies and tackling complex problems through code. Alongside her technical pursuits, Supriya serves as a Senator-at-Large in the Students' Association, where she advocates for student needs and demonstrates strong leadership and communication skills. She is passionate about building reliable, efficient systems and growing as both a developer and a leader. She is working as an undergraduate research assistant at the MVOS lab exploring different aspects of AI and Hyperspectral Imaging for crop disease detection.",
+      "group": "Undergraduate",
+      "socialLinks": [
+        { "name": "Google Scholar", "url": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=LU-I2WEAAAAJ", "icon": "/images/google-scholar.png" },
+        { "name": "ResearchGate", "url": "https://www.researchgate.net/profile/Supriya-Paudel-2", "icon": "/images/researchgate.png" }
+      ]
+    },
+    {
+      "name": "Inayat Rasool",
+      "image": "/images/inayat.png",
+      "description": "is a Master's student and a Graduate Research Assistant at the MVOS lab within the Department of Agricultural and Biosystems Engineering at South Dakota State University in Brookings, SD. He completed his bachelor's degree in Mechanical Engineering from Aligarh Muslim University in Aligarh, India. His research interests revolve around the application of engineering principles to solve agricultural automation problems. Specifically, he is passionate about working on projects related to agricultural robotics, UAGVs (Unmanned Autonomous Ground Vehicles), and UAVs (Unmanned Aerial Vehicles) and incorporation of cutting-edge technologies such as computer vision, machine learning, and deep learning to the smart agricultural robotic systems.",
+      "group": "Graduate",
+      "socialLinks": [
+        { "name": "Google Scholar", "url": "https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=2&user=mQeJQe8AAAAJ", "icon": "/images/google-scholar.png" },
+        { "name": "ResearchGate", "url": "https://www.researchgate.net/profile/Inayat-Rasool", "icon": "/images/researchgate.png" }
+      ]
+    },
+    {
+      "name": "Dhe Yeong Tchalla",
+      "image": "/images/dhe.png",
+      "description": "is a Master's student in Computer Science at South Dakota State University. He received his bachelor's degree in computer science from Sun Moon University in South Korea. His research interests include intelligent robotic systems, GeoAI, software engineering, data mining, and artificial intelligence with applications in precision agriculture and autonomous navigation. He is currently a member of the Machine Vision and Optical Systems (MVOS) Lab, where he contributes to the development of intelligent robotic systems for crop disease detection and autonomous field navigation. His work in the lab focuses on integrating machine vision techniques with robotic platforms for enhanced perception and decision-making in agricultural environments.",
+      "group": "Graduate",
+      "socialLinks": [
+        { "name": "Google Scholar", "url": "https://scholar.google.com/citations?user=ip71QZsAAAAJ&hl=en", "icon": "/images/google-scholar.png" },
+        { "name": "ResearchGate", "url": "https://www.researchgate.net/profile/Dhe-Yeong-Tchalla", "icon": "/images/researchgate.png" }
+      ]
+    },
+    {
+      "name": "Zain Ul Abideen Usmani",
+      "image": "/images/zain.png",
+      "description": "is currently pursuing a PhD at the MVOS lab within the Department of Agricultural and Biosystems Engineering at South Dakota State University, Brookings, SD. He holds a bachelor's degree in software engineering from the University of Azad Jammu & Kashmir, Pakistan. He also earned a master's degree in systems engineering from the National University of Sciences & Technology, Pakistan. His research primarily focuses on the application of software development, Explainable AI (XAI), applied machine learning, and visual data processing techniques in the field of agricultural engineering. Mr. Usmani is dedicated to addressing challenges in agriculture through the development of innovative solutions aimed at enhancing efficiency and sustainability. He is particularly passionate about exploring how technologies, such as image recognition and visual analytics, can be effectively leveraged to improve agricultural practices and increase productivity.",
+      "group": "Graduate",
+      "socialLinks": [
+        { "name": "Google Scholar", "url": "https://scholar.google.com/citations?user=WQmvp5gAAAAJ&hl=en&oi=sra", "icon": "/images/google-scholar.png" }
+      ]
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Swarnabha Roy",
+      "image": "/images/alumni-swarnabha.jpg",
+      "description": "is a fifth-year Ph.D. student in the Department of Electrical and Computer Engineering at Texas A&M University. He is advised by Professor Stavros Kalafatis in the Robotics, AI, and IoT Research group. Roy's research focuses on building robust architectures for modular multi-robot systems in disadvantageous network environments, aiming to enhance resource utilization using edge devices. Before joining Texas A&M, he completed his Bachelor's at the Indian Institute of Technology (IIT) Kharagpur, majoring in Electronics and Electrical Communications Engineering. His work involves exploring areas like software robotics, artificial intelligence, and IoT security. Blockchain in robotics, Roy's research contributions include developing algorithms for graph clustering, IoT security on multi-robot systems, self-healable PID control systems, sensor visualization for smart manufacturing, distributed computation in modular edge robotics, and modular robotic containerization techniques for task handling across computing platforms. He worked in the MVOS lab as a Research Assistant during summer 2024."
+    },
+    {
+      "name": "Kasish Siwakoti",
+      "image": "/images/alumni-kasish.jpg",
+      "description": "is an undergraduate student majoring in Business Economics at South Dakota State University. As an undergraduate research assistant in the Machine Vision and Optical Sensors (MVOS) Lab, she played a key role in agricultural data analysis, data processing, and visualization. Her work involved organizing and analyzing large datasets, refining data for meaningful insights, and creating visual representations such as graphs, charts, and flowcharts for research presentations and peer-reviewed publications."
+    },
+    {
+      "name": "Ivan Perez Olivera",
+      "image": "/images/alumni-ivan.jpg",
+      "description": "was a Master's student and a Graduate Research Assistant at the MVOS lab within the Department of Agricultural and Biosystems Engineering at South Dakota State University in Brookings, SD. He graduated from the Chapingo Autonomous University, Mexico with Agricultural Mechanical Engineering degree. His proficiency in digital agriculture and robotics led him to work for the past 5 years at the International Maize and Wheat Improvement Center (CIMMYT), developing custom hardware and software solutions for High Throughput Phenotyping (HTP) of Wheat using a wide variety of sensing technologies such as LiDAR, spectroscopy, thermography, and UAV imagery. He is eager to continue exploring the intersection of engineering and science, developing tools and strategies for a better understanding of crops, based on high-quality data. He is committed to using cutting-edge technologies to drive innovation and make the advances that the world needs to address the current challenges in agriculture. Currently he works at Inari Agriculture, Inc."
+    },
+    {
+      "name": "Dr. Hasan Mirzakhaninafchi",
+      "image": "/images/alumni-hasan.jpg",
+      "description": "is a PhD graduate from Punjab Agricultural University, India with further enriched research experience through postdoctoral fellowships at Punjab Agricultural University and Ataturk University, Turkey, specializing in precision agriculture. He also has earned an MS in Computer Science from South Dakota State University, with a thesis focused on mitigating GPS spoofing using deep learning models, eager to contribute into precision Ag innovative projects. He worked in the MVOS lab as a temporary Research Associate by mentoring undergraduate and graduate students on various aspects of precision agriculture, deep learning and computer vision."
+    }
+  ]
+} 

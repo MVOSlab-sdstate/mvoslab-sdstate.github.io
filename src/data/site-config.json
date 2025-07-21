@@ -1,0 +1,24 @@
+{
+  "siteName": "Machine Vision and Optical Sensor Lab",
+  "university": "South Dakota State University",
+  "department": "Department of Agricultural & Biosystems Engineering",
+  "description": "The Machine Vision and Optical Sensor (MVOS) Lab at South Dakota State University focuses on advancing precision agriculture by harnessing cutting-edge technologies.",
+  "logo": "/images/dept-logo.png",
+  "favicon": "/favicon.ico",
+  "navigation": [
+    {"name": "Home", "href": "/"},
+    {"name": "About", "href": "/about"},
+    {"name": "PI", "href": "/pi"},
+    {"name": "Research", "href": "/research"},
+    {"name": "Teaching", "href": "/teaching"},
+    {"name": "People", "href": "/people"},
+    {"name": "News & Media", "href": "/news"}
+  ],
+  "colors": {
+    "primary": "#0033a0",
+    "secondary": "#ffc72c",
+    "gradientFrom": "#0033a0",
+    "gradientTo": "#4a90e2"
+  },
+  "copyright": "\u00a9 2025 Machine Vision and Optical Sensor Lab"
+} 
