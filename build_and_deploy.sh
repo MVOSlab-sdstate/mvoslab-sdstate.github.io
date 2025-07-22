@@ -7,13 +7,13 @@ BRANCH="gh-pages"
 OUT_DIR="out"
 
 # 1. Install dependencies if needed
-if [ ! -d "../mvos-lab-website/node_modules" ]; then
+if [ ! -d "node_modules" ]; then
   echo "Installing dependencies..."
-  (cd ../mvos-lab-website && npm install)
+  npm install
 fi
 
 # 2. Build and export the static site
-(cd ../mvos-lab-website && npm run build && npm run export)
+npm run build
 
 # 3. Prepare a temp directory for the gh-pages branch (in parent dir)
 rm -rf gh-pages-tmp
@@ -29,7 +29,7 @@ cd gh-pages-tmp
 git rm -rf . || true
 
 # 4. Copy exported site to the branch root
-cp -r ../mvos-lab-website/$OUT_DIR/* .
+cp -r ../$OUT_DIR/* .
 touch .nojekyll
 
 # 5. Commit and push
@@ -44,4 +44,4 @@ fi
 cd ..
 rm -rf gh-pages-tmp
 
-echo "Deployment complete! Your site should be live at: https://mvoslab-sdstate.github.io/" 
+echo "Deployment complete! Your site should be live at: https://mvoslab-sdstate.github.io/"   
