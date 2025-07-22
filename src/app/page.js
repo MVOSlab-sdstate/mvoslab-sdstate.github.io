@@ -13,8 +13,15 @@ export default function Home() {
     if (!container) return;
     let frame;
     let speed = 0.5; // px per frame
-    let scroll = 0;
     let isHovered = false;
+    
+    setTimeout(() => {
+      const startPos = container.scrollWidth / 2 - container.clientWidth;
+      container.scrollLeft = startPos;
+      scroll = startPos;
+    }, 50);
+    
+    let scroll = 0;
 
     const onMouseEnter = () => { isHovered = true; };
     const onMouseLeave = () => { isHovered = false; };
@@ -22,10 +29,10 @@ export default function Home() {
     container.addEventListener("mouseleave", onMouseLeave);
 
     function animate() {
-      if (!isHovered) {
+      if (!isHovered && container.scrollWidth > 0) {
         scroll += speed;
         if (scroll >= container.scrollWidth - container.clientWidth) {
-          scroll = 0;
+          scroll = container.scrollWidth / 2 - container.clientWidth;
         }
         container.scrollLeft = scroll;
       } else {
@@ -51,7 +58,7 @@ export default function Home() {
           fill
           className="object-cover brightness-90 contrast-110"
           priority
-          style={{ objectPosition: "50% 45%" }}
+          style={{ objectPosition: "50% 35%" }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0033a0]/60 to-[#4a90e2]/30" />
         <div className="relative z-10 text-center text-white px-4">
@@ -68,20 +75,20 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-[#0033a0] mb-10 text-center">
             {welcome.title}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-7xl mx-auto items-stretch">
             {/* Left Image */}
             <div className="flex items-stretch">
               <Image
                 src={welcome.leftImage}
                 alt={welcome.leftImageAlt}
-                width={400}
-                height={320}
-                className="rounded-2xl shadow-xl object-cover h-full w-full min-h-[240px] max-h-[400px]"
+                width={500}
+                height={400}
+                className="rounded-2xl shadow-xl object-cover w-full h-full min-h-[350px]"
               />
             </div>
             {/* Center Card */}
             <div className="flex items-stretch">
-              <div className="bg-white rounded-2xl shadow-2xl border-t-4 border-[#0033a0] px-6 py-8 text-gray-700 text-lg leading-relaxed flex flex-col justify-center h-full w-full">
+              <div className="bg-white rounded-2xl shadow-2xl border-t-4 border-[#0033a0] px-8 py-10 text-gray-700 text-lg leading-relaxed flex flex-col justify-center w-full">
                 <p className="text-center md:text-left">{welcome.content}</p>
               </div>
             </div>
@@ -90,9 +97,9 @@ export default function Home() {
               <Image
                 src={welcome.rightImage}
                 alt={welcome.rightImageAlt}
-                width={400}
-                height={320}
-                className="rounded-2xl shadow-xl object-cover h-full w-full min-h-[240px] max-h-[400px]"
+                width={500}
+                height={400}
+                className="rounded-2xl shadow-xl object-cover w-full h-full min-h-[350px]"
               />
             </div>
           </div>
@@ -105,9 +112,10 @@ export default function Home() {
           <div
             ref={carouselRef}
             className="flex overflow-x-auto gap-6 pb-2 hide-scrollbar"
-            style={{ scrollBehavior: "smooth" }}
+            style={{ scrollBehavior: "auto" }}
           >
-            {carousel.images.map((img, idx) => (
+            {/* Duplicate images for seamless infinite scroll */}
+            {[...carousel.images, ...carousel.images].map((img, idx) => (
               <div
                 key={idx}
                 className="min-w-[160px] md:min-w-[200px] h-32 md:h-36 rounded-lg overflow-hidden shadow hover:shadow-lg transition-shadow bg-white flex items-center justify-center"
