@@ -60,13 +60,6 @@ export default function Home() {
           priority
           style={{ objectPosition: "50% 35%" }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0033a0]/60 to-[#4a90e2]/30" />
-        <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-2xl">{hero.title}</h1>
-          <p className="text-lg md:text-2xl max-w-2xl mx-auto drop-shadow-lg font-medium">
-            {hero.subtitle}
-          </p>
-        </div>
       </section>
 
       {/* Welcome Section - Clean, Equal Height Grid */}
