@@ -32,15 +32,15 @@ export default function Research() {
             {researchAreas.map((area, idx) => (
               <div key={idx} className="bg-gray-50 rounded-2xl shadow flex flex-col hover:shadow-lg transition-shadow border-t-4 border-[#0033a0]">
                 {area.images && area.images.length > 0 && (
-                  <div className="flex gap-2 overflow-x-auto p-2 pb-0 hide-scrollbar">
+                  <div className="flex gap-2 overflow-x-auto p-4 pb-2 hide-scrollbar">
                     {area.images.map((img, i) => (
                       <Image
                         key={i}
                         src={img.src}
                         alt={img.alt}
-                        width={120}
-                        height={80}
-                        className="object-cover rounded-xl w-[120px] h-[80px] flex-shrink-0"
+                        width={200}
+                        height={120}
+                        className="object-cover rounded-xl flex-1 min-w-0 h-[120px]"
                       />
                     ))}
                   </div>
@@ -97,4 +97,4 @@ export default function Research() {
       </section>
     </main>
   );
-} 
+}  
