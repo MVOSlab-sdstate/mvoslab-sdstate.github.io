@@ -75,6 +75,16 @@
       ]
     },
     {
+      "name": "Aastha Gautam",
+      "image": "/images/aastha.png",
+      "description": "is a graduate student in the MVOS Lab with a strong interest in precision agriculture. She has an academic background in farm mechanization, soil and water science, and automation, which provides a solid foundation for her interdisciplinary research. As a Graduate Research Assistant in the lab, she focuses on applying artificial intelligence for nitrogen management in corn production and using drones to support precision spray applications. She is motivated to explore data-driven tools and advanced technologies that can enhance crop yields and improve the efficiency and sustainability of modern farming systems.",
+      "group": "Graduate",
+      "socialLinks": [
+        { "name": "Google Scholar", "url": "https://scholar.google.com/citations?user=sMK9qFkAAAAJ&hl=en", "icon": "/images/google-scholar.png" },
+        { "name": "ResearchGate", "url": "https://www.researchgate.net/profile/Aastha-Gautam-3", "icon": "/images/researchgate.png" }
+      ]
+    },
+    {
       "name": "Zain Ul Abideen Usmani",
       "image": "/images/zain.png",
       "description": "is currently pursuing a PhD at the MVOS lab within the Department of Agricultural and Biosystems Engineering at South Dakota State University, Brookings, SD. He holds a bachelor's degree in software engineering from the University of Azad Jammu & Kashmir, Pakistan. He also earned a master's degree in systems engineering from the National University of Sciences & Technology, Pakistan. His research primarily focuses on the application of software development, Explainable AI (XAI), applied machine learning, and visual data processing techniques in the field of agricultural engineering. Mr. Usmani is dedicated to addressing challenges in agriculture through the development of innovative solutions aimed at enhancing efficiency and sustainability. He is particularly passionate about exploring how technologies, such as image recognition and visual analytics, can be effectively leveraged to improve agricultural practices and increase productivity.",
@@ -106,4 +116,4 @@
       "description": "is a PhD graduate from Punjab Agricultural University, India with further enriched research experience through postdoctoral fellowships at Punjab Agricultural University and Ataturk University, Turkey, specializing in precision agriculture. He also has earned an MS in Computer Science from South Dakota State University, with a thesis focused on mitigating GPS spoofing using deep learning models, eager to contribute into precision Ag innovative projects. He worked in the MVOS lab as a temporary Research Associate by mentoring undergraduate and graduate students on various aspects of precision agriculture, deep learning and computer vision."
     }
   ]
-} 
+}
