@@ -6,8 +6,8 @@ This is the official website for the Machine Vision and Optical Sensor (MVOS) La
 - Built with Next.js and Tailwind CSS
 - All content is managed via JSON files in `src/data/`
 - Images are stored in `public/images/`
-- Static site is deployed to GitHub Pages: https://mvoslab-sdstate.github.io
-
+- Static site is deployed to GitHub Pages: https://mvoslab-sdstate.github.io/
+  
 ---
 
 ## Project Structure
