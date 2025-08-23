@@ -189,6 +189,9 @@
     {
       "name": "Texas A&M University - Department of Electrical & Computer Engineering",
       "logo": "/images/sponsor7.png"
+    },
+    {"name": "California Department of Pesticide Regulation",
+     "logo": "/images/CDPRlogo.png"
     }
   ]
 }  
