@@ -69,9 +69,9 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-[#0033a0] mb-10 text-center">
             {welcome.title}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-7xl mx-auto items-stretch">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 max-w-7xl mx-auto items-stretch">
             {/* Left Image */}
-            <div className="flex items-stretch">
+            <div className="flex items-stretch lg:col-span-1">
               <Image
                 src={welcome.leftImage}
                 alt={welcome.leftImageAlt}
@@ -81,13 +81,13 @@ export default function Home() {
               />
             </div>
             {/* Center Card */}
-            <div className="flex items-stretch md:col-span-2">
+            <div className="flex items-stretch lg:col-span-2">
               <div className="bg-white rounded-2xl shadow-2xl border-t-4 border-[#0033a0] px-8 py-10 text-gray-700 text-lg leading-relaxed flex flex-col justify-center w-full">
                 <p className="text-center md:text-left">{welcome.content}</p>
               </div>
             </div>
             {/* Right Image */}
-            <div className="flex items-stretch">
+            <div className="flex items-stretch lg:col-span-1">
               <Image
                 src={welcome.rightImage}
                 alt={welcome.rightImageAlt}
@@ -97,7 +97,7 @@ export default function Home() {
               />
             </div>
             {/* Twitter Feed */}
-            <div className="flex items-stretch md:col-span-1">
+            <div className="flex items-stretch lg:col-span-1">
               <TwitterFeed inWelcomeSection={true} />
             </div>
           </div>
