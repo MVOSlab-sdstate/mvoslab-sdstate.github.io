@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import homeContent from "../data/home-content.json";
+import TwitterFeed from "../components/TwitterFeed";
 import React, { useRef, useEffect } from "react";
 
 export default function Home() {
@@ -68,9 +69,9 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-[#0033a0] mb-10 text-center">
             {welcome.title}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-7xl mx-auto items-stretch">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 max-w-7xl mx-auto items-stretch">
             {/* Left Image */}
-            <div className="flex items-stretch">
+            <div className="flex items-stretch lg:col-span-1">
               <Image
                 src={welcome.leftImage}
                 alt={welcome.leftImageAlt}
@@ -80,13 +81,13 @@ export default function Home() {
               />
             </div>
             {/* Center Card */}
-            <div className="flex items-stretch">
+            <div className="flex items-stretch lg:col-span-2">
               <div className="bg-white rounded-2xl shadow-2xl border-t-4 border-[#0033a0] px-8 py-10 text-gray-700 text-lg leading-relaxed flex flex-col justify-center w-full">
                 <p className="text-center md:text-left">{welcome.content}</p>
               </div>
             </div>
             {/* Right Image */}
-            <div className="flex items-stretch">
+            <div className="flex items-stretch lg:col-span-1">
               <Image
                 src={welcome.rightImage}
                 alt={welcome.rightImageAlt}
@@ -94,6 +95,10 @@ export default function Home() {
                 height={400}
                 className="rounded-2xl shadow-xl object-cover w-full h-full min-h-[350px]"
               />
+            </div>
+            {/* Twitter Feed */}
+            <div className="flex items-stretch lg:col-span-1">
+              <TwitterFeed inWelcomeSection={true} />
             </div>
           </div>
         </div>
@@ -125,6 +130,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Twitter Feed Section removed - now in welcome section */}
     </main>
   );
 }
