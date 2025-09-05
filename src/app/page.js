@@ -86,15 +86,9 @@ export default function Home() {
                 <p className="text-center md:text-left">{welcome.content}</p>
               </div>
             </div>
-            {/* Right Image */}
+            {/* Twitter Feed (replacing Right Image) */}
             <div className="flex items-stretch">
-              <Image
-                src={welcome.rightImage}
-                alt={welcome.rightImageAlt}
-                width={500}
-                height={400}
-                className="rounded-2xl shadow-xl object-cover w-full h-full min-h-[350px]"
-              />
+              <TwitterFeed inWelcomeSection={true} />
             </div>
           </div>
         </div>
@@ -127,8 +121,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Twitter Feed Section */}
-      <TwitterFeed />
+      {/* Twitter Feed Section removed - now in welcome section */}
     </main>
   );
 }

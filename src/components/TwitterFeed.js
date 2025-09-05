@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 
-export default function TwitterFeed() {
+export default function TwitterFeed({ inWelcomeSection = false }) {
   const twitterRef = useRef(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [isError, setIsError] = useState(false);
@@ -66,6 +66,51 @@ export default function TwitterFeed() {
       clearTimeout(timeoutId);
     };
   }, [isLoaded]);
+
+  if (inWelcomeSection) {
+    return (
+      <div className="w-full h-full">
+        <div className="bg-white rounded-2xl shadow-xl border-t-4 border-[#0033a0] h-full w-full overflow-hidden">
+          <div className="p-4 bg-[#0033a0] text-white font-bold">
+            Latest Updates
+          </div>
+          <div ref={twitterRef} className="min-h-[350px] relative">
+            {!isLocalDev && (
+              <a
+                className="twitter-timeline"
+                data-height="350"
+                data-theme="light"
+                data-chrome="noheader nofooter noborders transparent"
+                href="https://twitter.com/pappu_k_yadav?ref_src=twsrc%5Etfw"
+              >
+                Tweets by pappu_k_yadav
+              </a>
+            )}
+            
+            {(isError || isLocalDev) && (
+              <div className="absolute inset-0 flex flex-col items-center justify-center bg-white p-4">
+                <p className="text-gray-700 mb-4 text-center">
+                  Twitter feed will appear here when deployed. 
+                  <br />
+                  <span className="text-sm text-gray-500">
+                    (Twitter API may be rate-limited during local development)
+                  </span>
+                </p>
+                <a 
+                  href="https://twitter.com/pappu_k_yadav" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[#0033a0] hover:text-[#ffc72c] transition-colors font-medium"
+                >
+                  View @pappu_k_yadav on Twitter
+                </a>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <section className="py-16 bg-gray-50">
