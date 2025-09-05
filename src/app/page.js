@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import homeContent from "../data/home-content.json";
+import TwitterFeed from "../components/TwitterFeed";
 import React, { useRef, useEffect } from "react";
 
 export default function Home() {
@@ -125,6 +126,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Twitter Feed Section */}
+      <TwitterFeed />
     </main>
   );
 }
