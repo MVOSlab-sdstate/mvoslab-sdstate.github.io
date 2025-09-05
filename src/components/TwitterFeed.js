@@ -74,36 +74,45 @@ export default function TwitterFeed({ inWelcomeSection = false }) {
           <div className="p-3 bg-[#0033a0] text-white font-bold text-sm text-center">
             Latest Updates
           </div>
-          <div ref={twitterRef} className="min-h-[350px] relative">
-            {!isLocalDev && (
-              <a
-                className="twitter-timeline"
-                data-height="350"
-                data-theme="light"
-                data-chrome="noheader nofooter noborders transparent"
-                href="https://twitter.com/pappu_k_yadav?ref_src=twsrc%5Etfw"
-              >
-                Tweets by pappu_k_yadav
-              </a>
-            )}
+          <div className="min-h-[350px] relative p-4">
+            <div ref={twitterRef} className="w-full h-full">
+              {!isLocalDev && (
+                <a
+                  className="twitter-timeline"
+                  data-height="350"
+                  data-theme="light"
+                  data-chrome="noheader nofooter noborders transparent"
+                  href="https://twitter.com/pappu_k_yadav?ref_src=twsrc%5Etfw"
+                >
+                  Tweets by pappu_k_yadav
+                </a>
+              )}
+            </div>
             
             {(isError || isLocalDev) && (
-              <div className="absolute inset-0 flex flex-col items-center justify-center bg-white p-4">
-                <p className="text-gray-700 mb-4 text-center text-sm">
-                  Twitter feed will appear here when deployed. 
-                  <br />
-                  <span className="text-xs text-gray-500">
-                    (Twitter API may be rate-limited during local development)
-                  </span>
-                </p>
-                <a 
-                  href="https://twitter.com/pappu_k_yadav" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-[#0033a0] hover:text-[#ffc72c] transition-colors font-medium text-sm"
-                >
-                  View @pappu_k_yadav on Twitter
-                </a>
+              <div className="absolute inset-4 flex flex-col items-center justify-center bg-gray-50 rounded-lg border-2 border-dashed border-gray-300">
+                <div className="text-center p-6">
+                  <div className="mb-4">
+                    <svg className="mx-auto h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2m0 0V1a1 1 0 011 1v8a1 1 0 01-1 1M7 4H6a1 1 0 00-1 1v8a1 1 0 001 1h1m0-10h10m-5 3v4m0 0l-2-2m2 2l2-2" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-medium text-gray-900 mb-2">Twitter Feed</h3>
+                  <p className="text-gray-600 mb-4 text-sm">
+                    Live tweets from @pappu_k_yadav will appear here when deployed.
+                  </p>
+                  <p className="text-xs text-gray-500 mb-4">
+                    (Twitter widgets are disabled during local development)
+                  </p>
+                  <a 
+                    href="https://twitter.com/pappu_k_yadav" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-[#0033a0] hover:bg-[#002080] transition-colors"
+                  >
+                    View on Twitter
+                  </a>
+                </div>
               </div>
             )}
           </div>
