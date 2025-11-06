@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import homeContent from "../data/home-content.json";
-import TwitterFeed from "../components/TwitterFeed";
 import React, { useRef, useEffect } from "react";
 
 export default function Home() {
@@ -69,7 +68,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-[#0033a0] mb-10 text-center">
             {welcome.title}
           </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 max-w-7xl mx-auto items-stretch">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 max-w-7xl mx-auto items-stretch">
             {/* Left Image */}
             <div className="flex items-stretch lg:col-span-1">
               <Image
@@ -95,10 +94,6 @@ export default function Home() {
                 height={400}
                 className="rounded-2xl shadow-xl object-cover w-full h-full min-h-[350px]"
               />
-            </div>
-            {/* Twitter Feed */}
-            <div className="flex items-stretch lg:col-span-1">
-              <TwitterFeed inWelcomeSection={true} />
             </div>
           </div>
         </div>
