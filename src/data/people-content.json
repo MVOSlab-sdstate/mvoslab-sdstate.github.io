@@ -45,14 +45,11 @@
       ]
     },
     {
-      "name": "Supriya Paudel",
-      "image": "/images/supriya.png",
-      "description": "is an undergraduate Computer Science student at South Dakota State University with a keen interest in systems programming, compilers, and backend development. She enjoys learning new technologies and tackling complex problems through code. Alongside her technical pursuits, Supriya serves as a Senator-at-Large in the Students' Association, where she advocates for student needs and demonstrates strong leadership and communication skills. She is passionate about building reliable, efficient systems and growing as both a developer and a leader. She is working as an undergraduate research assistant at the MVOS lab exploring different aspects of AI and Hyperspectral Imaging for crop disease detection.",
+      "name": "Devraj Majhi",
+      "image": "/images/devraj.png",
+      "description": "is an undergraduate student in Agricultural Systems Technology at South Dakota State University. He joined the Machine Vision and Optical Sensor (MVOS) Lab as a research assistant, supporting projects in AI-based sensing, robotics, and UGV/UAS development for precision agriculture. He assists with field data collection, CAD design, and 3D printing of custom parts using SolidWorks and Autodesk Fusion, and works with the MVOS research team on testing, presentations, and conference or journal publications.",
       "group": "Undergraduate",
-      "socialLinks": [
-        { "name": "Google Scholar", "url": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=LU-I2WEAAAAJ", "icon": "/images/google-scholar.png" },
-        { "name": "ResearchGate", "url": "https://www.researchgate.net/profile/Supriya-Paudel-2", "icon": "/images/researchgate.png" }
-      ]
+      "socialLinks": []
     },
     {
       "name": "Inayat Rasool",
@@ -95,6 +92,11 @@
     }
   ],
   "alumni": [
+    {
+      "name": "Supriya Paudel",
+      "image": "/images/supriya.png",
+      "description": "is an undergraduate Computer Science student at South Dakota State University with a keen interest in systems programming, compilers, and backend development. She enjoys learning new technologies and tackling complex problems through code. Alongside her technical pursuits, Supriya serves as a Senator-at-Large in the Students' Association, where she advocates for student needs and demonstrates strong leadership and communication skills. She is passionate about building reliable, efficient systems and growing as both a developer and a leader. She is working as an undergraduate research assistant at the MVOS lab exploring different aspects of AI and Hyperspectral Imaging for crop disease detection."
+    },
     {
       "name": "Swarnabha Roy",
       "image": "/images/alumni-swarnabha.jpg",
