@@ -55,7 +55,7 @@
     {
       "name": "Aastha Gautam",
       "image": "/images/aastha.png",
-      "description": "is a graduate student in the MVOS Lab with a strong interest in precision agriculture. She has an academic background in farm mechanization, soil and water science, and automation, which provides a solid foundation for her interdisciplinary research. As a Graduate Research Assistant in the lab, she focuses on applying artificial intelligence for nitrogen management in corn production and using drones to support precision spray applications. She is motivated to explore data-driven tools and advanced technologies that can enhance crop yields and improve the efficiency and sustainability of modern farming systems.",
+      "description": "is a graduate student in the Machine Vision and Optical Sensor (MVOS) Lab with a strong focus on precision agriculture and intelligent agro-robotic systems. She has an academic background in farm mechanization, soil and water science, and agricultural automation, which provides a solid interdisciplinary foundation for her research. As a Graduate Research Assistant, Aastha is working on the development of an AI-driven precision spot spraying unmanned aerial system (UAS) that integrates RGB and multispectral imaging for targeted herbicide application. Her research centers on real-time weed detection and classification in corn and soybean fields, enabling site-specific spray decisions to reduce chemical use, improve weed control efficacy, and enhance the environmental sustainability of crop production systems.",
       "group": "Graduate",
       "socialLinks": [
         { "name": "Google Scholar", "url": "https://scholar.google.com/citations?user=sMK9qFkAAAAJ&hl=en", "icon": "/images/google-scholar.png" },
