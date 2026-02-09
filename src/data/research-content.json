@@ -192,6 +192,10 @@
     },
     {"name": "California Department of Pesticide Regulation",
      "logo": "/images/CDPRlogo.png"
+    },
+    {
+      "name": "South Dakota Corn Utilization Council",
+      "logo": "/images/sdcorn.png"
     }
   ]
-}  
+}    
