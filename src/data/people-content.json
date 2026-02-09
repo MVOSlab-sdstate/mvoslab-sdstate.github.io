@@ -46,6 +46,13 @@
       "socialLinks": []
     },
     {
+      "name": "Samir Bhandari",
+      "image": "/images/samir-placeholder.png",
+      "description": "is a graduate researcher in the Machine Vision and Optical Sensor (MVOS) Lab within South Dakota State University's Department of Agricultural and Biosystems Engineering. He is pursuing a Master of Science degree in Agricultural and Biosystems Engineering with a strong concentration in advanced machine design, CAD, and simulation-driven engineering analysis. Samir brings a solid background in mechanical systems, finite element analysis, and thermal\u2013fluid modeling, with prior research experience in bioenergy and fuel testing laboratories focused on engine performance and emissions analysis. He also founded and led Robotech Nepal Pvt. Ltd., where he managed multidisciplinary teams developing smart farming tools, IoT-based automation, and AI-enabled robotic systems, while mentoring engineers and students in robotics and programming. In the MVOS Lab, Samir will contribute to the design and development of robotic and electro-mechanical systems for precision agriculture, supporting AI-driven, real-time nitrogen side-dressing applications through robust mechanical design, simulation, and system integration.",
+      "group": "Graduate",
+      "socialLinks": []
+    },
+    {
       "name": "Aastha Gautam",
       "image": "/images/aastha.png",
       "description": "is a graduate student in the MVOS Lab with a strong interest in precision agriculture. She has an academic background in farm mechanization, soil and water science, and automation, which provides a solid foundation for her interdisciplinary research. As a Graduate Research Assistant in the lab, she focuses on applying artificial intelligence for nitrogen management in corn production and using drones to support precision spray applications. She is motivated to explore data-driven tools and advanced technologies that can enhance crop yields and improve the efficiency and sustainability of modern farming systems.",
