@@ -39,6 +39,13 @@
       "socialLinks": []
     },
     {
+      "name": "Dustin Seubert",
+      "image": "/images/dustin-placeholder.png",
+      "description": "is an undergraduate researcher in the Machine Vision and Optical Sensor (MVOS) Lab within South Dakota State University's Department of Agricultural and Biosystems Engineering. He is pursuing a Bachelor of Science in Agricultural and Biosystems Engineering and brings a strong background in hands-on engineering, mechanical design, and robotics. Dustin has industry experience from Nova-Tech Engineering, where he worked on component testing, manufacturing workflows, and large-scale system organization, strengthening both his technical and problem-solving skills. He has demonstrated leadership as a captain and lead designer for FIRST Robotics Competition Team 4239 and the MTEEA Supermileage Team, guiding teams to state-level recognition and multiple first-place finishes through innovative design and fabrication. In the MVOS Lab, Dustin is working on the development of a real-time robotic nitrogen side-dressing system, focusing on AI-driven computer vision, custom multispectral imaging, and field-deployable robotic solutions for precision agriculture.",
+      "group": "Undergraduate",
+      "socialLinks": []
+    },
+    {
       "name": "Aastha Gautam",
       "image": "/images/aastha.png",
       "description": "is a graduate student in the MVOS Lab with a strong interest in precision agriculture. She has an academic background in farm mechanization, soil and water science, and automation, which provides a solid foundation for her interdisciplinary research. As a Graduate Research Assistant in the lab, she focuses on applying artificial intelligence for nitrogen management in corn production and using drones to support precision spray applications. She is motivated to explore data-driven tools and advanced technologies that can enhance crop yields and improve the efficiency and sustainability of modern farming systems.",
