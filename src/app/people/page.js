@@ -21,7 +21,7 @@ const groupLabels = {
 };
 
 export default function People() {
-  const { hero, teamMembers, alumni } = peopleContent;
+  const { hero, staff, teamMembers, alumni } = peopleContent;
   const grouped = groupMembers(teamMembers);
   const [modalMember, setModalMember] = useState(null);
   const [modalAlum, setModalAlum] = useState(null);
@@ -45,6 +45,45 @@ export default function People() {
           </p>
         </div>
       </section>
+
+      {/* Staff Section */}
+      {staff && staff.length > 0 && (
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-6 max-w-6xl">
+            <div className="mb-12">
+              <h2 className="text-2xl font-bold text-[#0033a0] mb-6 border-b-2 border-[#ffc72c] inline-block px-2">
+                Staffs
+              </h2>
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-6">
+                {staff.map((member, idx) => (
+                  <div key={idx} className="bg-white rounded-2xl shadow-lg flex flex-col items-center hover:shadow-2xl transition-shadow border-t-4 border-[#0033a0] relative p-0 max-w-xs mx-auto">
+                    <div className="w-full">
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        width={320}
+                        height={200}
+                        className="object-cover w-full h-[200px] rounded-t-2xl"
+                      />
+                    </div>
+                    <div className="flex-1 flex flex-col items-center w-full px-2 py-4">
+                      <h3 className="text-xl font-bold text-[#0033a0] mb-1 text-center break-words leading-tight max-w-full">
+                        {member.name}
+                      </h3>
+                      <button
+                        className="mt-auto px-4 py-1 rounded bg-[#0033a0] text-white font-semibold hover:bg-[#002266] transition-colors text-sm"
+                        onClick={() => setModalMember(member)}
+                      >
+                        Read More
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Team Members by Group */}
       <section className="py-12 bg-white">
@@ -194,4 +233,4 @@ export default function People() {
       )}
     </main>
   );
-} 
+}  
