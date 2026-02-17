@@ -70,7 +70,7 @@
       },
       {
         "name": "Google Scholar",
-        "url": "https://scholar.google.com/citations?user=87p_GeMAAAAJ&hl=en&oi=ao",
+        "url": "https://scholar.google.com/citations?hl=en&tzom=360&user=aOVVqkkAAAAJ&authuser=1",
         "icon": "/images/google-scholar.png"
       },
       {
@@ -90,4 +90,4 @@
       }
     ]
   }
-} 
+}  
