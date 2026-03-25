@@ -15,7 +15,15 @@
     "/images/carousel-5.jpg": "MVOS Lab Research",
     "/images/carousel-6.jpg": "MVOS Lab Research",
     "/images/carousel-7.jpg": "MVOS Lab Research",
-    "/images/carousel-8.jpg": "MVOS Lab Research"
+    "/images/carousel-8.jpg": "MVOS Lab Research",
+    "/images/carousel-9.jpg": "MVOS Lab Research",
+    "/images/carousel-10.jpg": "MVOS Lab Research",
+    "/images/carousel-11.jpg": "MVOS Lab Research",
+    "/images/carousel-12.jpg": "MVOS Lab Research",
+    "/images/carousel-13.jpg": "MVOS Lab Research",
+    "/images/carousel-14.jpg": "MVOS Lab Research",
+    "/images/carousel-15.jpg": "MVOS Lab Research",
+    "/images/carousel-16.jpg": "MVOS Lab Research"
   },
   "teamImages": {
     "/images/pappu-profile.jpg": "Dr. Pappu Kumar Yadav",
@@ -90,4 +98,4 @@
     "/images/robot-field-side-new.jpg": "Agricultural robot in soybean field - MVOS Lab research",
     "/images/mvoslab-research.png": "MVOS Lab Research Overview"
   }
-} 
+}  
