@@ -4,13 +4,7 @@
     "title": "Our Team",
     "subtitle": "Meet the researchers advancing agricultural technology"
   },
-  "staff": [
-    {
-      "name": "Krisha Joshi",
-      "image": "/images/krisha.png",
-      "description": "is a Research Associate I at the Machine Vision and Optical Sensor Laboratory in the Department of Agricultural and Biosystems Engineering at South Dakota State University. She holds a Bachelor's degree in Computer Science and Engineering from SRM Institute of Science and Technology, Chennai, India, and a Master's degree in Computer Science from Northern Arizona University, Arizona, USA. Her research integrates data-driven machine learning with science-driven modeling, with a strong emphasis on scientific computing and Physics-Informed Neural Networks (PINNs). Krisha's work combines plant physiology, radiative transfer principles, and hyperspectral reflectance behavior with AI models to improve the estimation of corn foliar nitrogen content. She is developing frameworks that fuse hyperspectral and custom multispectral imaging with physics-based constraints to support reliable, interpretable, and real-time nitrogen estimation for robotic nitrogen side-dressing applications in precision agriculture."
-    }
-  ],
+  "staff": [],
   "teamMembers": [
     {
       "name": "Rishik Aggarwal",
@@ -70,6 +64,13 @@
       "socialLinks": [
         { "name": "Google Scholar", "url": "https://scholar.google.com/citations?user=WQmvp5gAAAAJ&hl=en&oi=sra", "icon": "/images/google-scholar.png" }
       ]
+    },
+    {
+      "name": "Krisha Joshi",
+      "image": "/images/krisha.png",
+      "description": "is a PhD student at the Machine Vision and Optical Sensor Laboratory in the Department of Agricultural and Biosystems Engineering at South Dakota State University. She holds a Bachelor's degree in Computer Science and Engineering from SRM Institute of Science and Technology, Chennai, India, and a Master's degree in Computer Science from Northern Arizona University, Arizona, USA. Her research integrates data-driven machine learning with science-driven modeling, with a strong emphasis on scientific computing and Physics-Informed Neural Networks (PINNs). Krisha's work combines plant physiology, radiative transfer principles, and hyperspectral reflectance behavior with AI models to improve the estimation of corn foliar nitrogen content. She is developing frameworks that fuse hyperspectral and custom multispectral imaging with physics-based constraints to support reliable, interpretable, and real-time nitrogen estimation for robotic nitrogen side-dressing applications in precision agriculture.",
+      "group": "Graduate",
+      "socialLinks": []
     }
   ],
   "alumni": [
