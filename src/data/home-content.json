@@ -1,8 +1,8 @@
 {
   "hero": {
-    "backgroundImage": "/images/robot-field.jpg",
+    "backgroundImage": "/images/drone-field-hero.jpg",
     "title": "Welcome to MVOS Lab",
-    "subtitle": "Agricultural robot in soybean field - MVOS Lab research"
+    "subtitle": "Drone flying over agricultural field - MVOS Lab research"
   },
   "welcome": {
     "title": "Welcome to MVOS Lab",
